@@ -1,0 +1,29 @@
+html{
+    background: linear-gradient(0deg, #fe036a, violet) fixed no-repeat;
+}
+
+#counter {
+    display: block;
+    text-align: center;
+    font-family:monospace;
+    font-size: 200px;
+}
+
+#container {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: large;   
+    color: rgb(0, 0, 0);
+    background-color: #fff6f6;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:hover {
+    background-color: rgb(246, 0, 0);
+    color: white;
+}
